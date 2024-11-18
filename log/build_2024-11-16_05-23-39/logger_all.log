@@ -1,0 +1,326 @@
+[0.079s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.080s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79fdb2d45ae0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79fdb2d455d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79fdb2d455d0>>)
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.200s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/fprobocon'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_controller) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_controller) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_controller) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_controller) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_controller) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_controller) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_controller) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_controller) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_controller' with type 'ros.ament_python' and name 'joystick_controller'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_controller) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_controller) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_controller) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_controller) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_controller) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_controller) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_controller) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_controller) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/keyboard_controller' with type 'ros.ament_python' and name 'keyboard_controller'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_target) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_target) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_target) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_target) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_target) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_target) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_target) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_target) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_target) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_to_target' with type 'ros.ament_cmake' and name 'move_to_target'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulasi-2025) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulasi-2025) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulasi-2025) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulasi-2025) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulasi-2025) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulasi-2025) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulasi-2025) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulasi-2025) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulasi-2025) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulasi-2025' with type 'ros.ament_cmake' and name 'simulasi-2025'
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.239s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 403 installed packages in /opt/ros/humble
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'joystick_controller' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'joystick_controller' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'joystick_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'joystick_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'joystick_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'joystick_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'joystick_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'joystick_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'joystick_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'joystick_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/fprobocon/build/joystick_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/fprobocon/install/joystick_controller', 'merge_install': False, 'path': '/home/user/fprobocon/src/joystick_controller', 'symlink_install': True, 'test_result_base': None}
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/fprobocon/build/keyboard_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/fprobocon/install/keyboard_controller', 'merge_install': False, 'path': '/home/user/fprobocon/src/keyboard_controller', 'symlink_install': True, 'test_result_base': None}
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'move_to_target' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'move_to_target' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'move_to_target' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'move_to_target' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'move_to_target' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'move_to_target' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'move_to_target' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'move_to_target' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'move_to_target' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'move_to_target' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/fprobocon/build/move_to_target', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/fprobocon/install/move_to_target', 'merge_install': False, 'path': '/home/user/fprobocon/src/move_to_target', 'symlink_install': True, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'simulasi-2025' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'simulasi-2025' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'simulasi-2025' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'simulasi-2025' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'simulasi-2025' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'simulasi-2025' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'simulasi-2025' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'simulasi-2025' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'simulasi-2025' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'simulasi-2025' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/fprobocon/build/simulasi-2025', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/fprobocon/install/simulasi-2025', 'merge_install': False, 'path': '/home/user/fprobocon/src/simulasi-2025', 'symlink_install': True, 'test_result_base': None}
+[0.277s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.278s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.278s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/fprobocon/src/joystick_controller' with build type 'ament_python'
+[0.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_controller', 'ament_prefix_path')
+[0.281s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/install/joystick_controller/share/joystick_controller/hook/ament_prefix_path.ps1'
+[0.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/fprobocon/install/joystick_controller/share/joystick_controller/hook/ament_prefix_path.dsv'
+[0.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/install/joystick_controller/share/joystick_controller/hook/ament_prefix_path.sh'
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.285s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/fprobocon/src/keyboard_controller' with build type 'ament_python'
+[0.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_controller', 'ament_prefix_path')
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/install/keyboard_controller/share/keyboard_controller/hook/ament_prefix_path.ps1'
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/fprobocon/install/keyboard_controller/share/keyboard_controller/hook/ament_prefix_path.dsv'
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/install/keyboard_controller/share/keyboard_controller/hook/ament_prefix_path.sh'
+[0.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/fprobocon/src/move_to_target' with build type 'ament_cmake'
+[0.289s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/fprobocon/src/move_to_target'
+[0.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.289s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.291s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/fprobocon/src/simulasi-2025' with build type 'ament_cmake'
+[0.291s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/fprobocon/src/simulasi-2025'
+[0.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.478s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/fprobocon/src/joystick_controller'
+[0.478s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.478s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.657s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/fprobocon/src/keyboard_controller'
+[0.658s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.658s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/fprobocon/build/move_to_target': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/fprobocon/src/move_to_target -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/fprobocon/install/move_to_target
+[0.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/fprobocon/build/simulasi-2025': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/build/simulasi-2025 -- -j16 -l16
+[1.043s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/user/fprobocon/install/joystick_controller/share/ament_index/resource_index/packages/joystick_controller
+[1.043s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/user/fprobocon/install/joystick_controller/share/joystick_controller/package.xml
+[1.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/fprobocon/build/joystick_controller': PYTHONPATH=/home/user/fprobocon/build/joystick_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/fprobocon/install/joystick_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/fprobocon/build/joystick_controller/build --no-deps symlink_data --force
+[1.049s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/user/fprobocon/install/keyboard_controller/share/ament_index/resource_index/packages/keyboard_controller
+[1.049s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/user/fprobocon/install/keyboard_controller/share/keyboard_controller/package.xml
+[1.050s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/user/fprobocon/install/keyboard_controller/lib/keyboard_controller/keyboard_controller
+[1.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/fprobocon/build/keyboard_controller': PYTHONPATH=/home/user/fprobocon/build/keyboard_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/fprobocon/install/keyboard_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/fprobocon/build/keyboard_controller/build --no-deps symlink_data --force
+[1.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/fprobocon/build/simulasi-2025' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/build/simulasi-2025 -- -j16 -l16
+[1.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/fprobocon/build/simulasi-2025': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/fprobocon/build/simulasi-2025
+[1.158s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulasi-2025)
+[1.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/fprobocon/build/simulasi-2025' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/fprobocon/build/simulasi-2025
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/simulasi-2025' for CMake module files
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/simulasi-2025' for CMake config files
+[1.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulasi-2025', 'cmake_prefix_path')
+[1.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/install/simulasi-2025/share/simulasi-2025/hook/cmake_prefix_path.ps1'
+[1.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/fprobocon/install/simulasi-2025/share/simulasi-2025/hook/cmake_prefix_path.dsv'
+[1.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/install/simulasi-2025/share/simulasi-2025/hook/cmake_prefix_path.sh'
+[1.164s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/simulasi-2025/bin'
+[1.164s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/simulasi-2025/lib/pkgconfig/simulasi-2025.pc'
+[1.164s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/simulasi-2025/lib/python3.10/site-packages'
+[1.165s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/simulasi-2025/bin'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/simulasi-2025/share/simulasi-2025/package.ps1'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/fprobocon/install/simulasi-2025/share/simulasi-2025/package.dsv'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/simulasi-2025/share/simulasi-2025/package.sh'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/simulasi-2025/share/simulasi-2025/package.bash'
+[1.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/simulasi-2025/share/simulasi-2025/package.zsh'
+[1.168s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/fprobocon/install/simulasi-2025/share/colcon-core/packages/simulasi-2025)
+[1.187s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulasi-2025)
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/simulasi-2025' for CMake module files
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/simulasi-2025' for CMake config files
+[1.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulasi-2025', 'cmake_prefix_path')
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/install/simulasi-2025/share/simulasi-2025/hook/cmake_prefix_path.ps1'
+[1.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/fprobocon/install/simulasi-2025/share/simulasi-2025/hook/cmake_prefix_path.dsv'
+[1.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/install/simulasi-2025/share/simulasi-2025/hook/cmake_prefix_path.sh'
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/simulasi-2025/bin'
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/simulasi-2025/lib/pkgconfig/simulasi-2025.pc'
+[1.190s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/simulasi-2025/lib/python3.10/site-packages'
+[1.190s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/simulasi-2025/bin'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/simulasi-2025/share/simulasi-2025/package.ps1'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/fprobocon/install/simulasi-2025/share/simulasi-2025/package.dsv'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/simulasi-2025/share/simulasi-2025/package.sh'
+[1.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/simulasi-2025/share/simulasi-2025/package.bash'
+[1.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/simulasi-2025/share/simulasi-2025/package.zsh'
+[1.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/fprobocon/install/simulasi-2025/share/colcon-core/packages/simulasi-2025)
+[1.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_controller', 'pythonpath_develop')
+[1.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/build/joystick_controller/share/joystick_controller/hook/pythonpath_develop.ps1'
+[1.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/fprobocon/build/joystick_controller' returned '0': PYTHONPATH=/home/user/fprobocon/build/joystick_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/fprobocon/install/joystick_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/fprobocon/build/joystick_controller/build --no-deps symlink_data --force
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/fprobocon/build/joystick_controller/share/joystick_controller/hook/pythonpath_develop.dsv'
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/build/joystick_controller/share/joystick_controller/hook/pythonpath_develop.sh'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/joystick_controller' for CMake module files
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/joystick_controller' for CMake config files
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/joystick_controller/lib'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/joystick_controller/bin'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/joystick_controller/lib/pkgconfig/joystick_controller.pc'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/joystick_controller/lib/python3.10/site-packages'
+[1.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_controller', 'pythonpath')
+[1.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/install/joystick_controller/share/joystick_controller/hook/pythonpath.ps1'
+[1.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/fprobocon/install/joystick_controller/share/joystick_controller/hook/pythonpath.dsv'
+[1.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/install/joystick_controller/share/joystick_controller/hook/pythonpath.sh'
+[1.394s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/joystick_controller/bin'
+[1.394s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick_controller)
+[1.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/joystick_controller/share/joystick_controller/package.ps1'
+[1.394s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/fprobocon/install/joystick_controller/share/joystick_controller/package.dsv'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/joystick_controller/share/joystick_controller/package.sh'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/joystick_controller/share/joystick_controller/package.bash'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/joystick_controller/share/joystick_controller/package.zsh'
+[1.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/fprobocon/install/joystick_controller/share/colcon-core/packages/joystick_controller)
+[1.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_controller', 'pythonpath_develop')
+[1.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/build/keyboard_controller/share/keyboard_controller/hook/pythonpath_develop.ps1'
+[1.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/fprobocon/build/keyboard_controller' returned '0': PYTHONPATH=/home/user/fprobocon/build/keyboard_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/fprobocon/install/keyboard_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/fprobocon/build/keyboard_controller/build --no-deps symlink_data --force
+[1.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/fprobocon/build/keyboard_controller/share/keyboard_controller/hook/pythonpath_develop.dsv'
+[1.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/build/keyboard_controller/share/keyboard_controller/hook/pythonpath_develop.sh'
+[1.397s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/keyboard_controller' for CMake module files
+[1.398s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/keyboard_controller' for CMake config files
+[1.398s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/keyboard_controller/lib'
+[1.398s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/keyboard_controller/bin'
+[1.398s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/keyboard_controller/lib/pkgconfig/keyboard_controller.pc'
+[1.398s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/keyboard_controller/lib/python3.10/site-packages'
+[1.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_controller', 'pythonpath')
+[1.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/install/keyboard_controller/share/keyboard_controller/hook/pythonpath.ps1'
+[1.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/fprobocon/install/keyboard_controller/share/keyboard_controller/hook/pythonpath.dsv'
+[1.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/install/keyboard_controller/share/keyboard_controller/hook/pythonpath.sh'
+[1.399s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/keyboard_controller/bin'
+[1.399s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard_controller)
+[1.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/keyboard_controller/share/keyboard_controller/package.ps1'
+[1.400s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/fprobocon/install/keyboard_controller/share/keyboard_controller/package.dsv'
+[1.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/keyboard_controller/share/keyboard_controller/package.sh'
+[1.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/keyboard_controller/share/keyboard_controller/package.bash'
+[1.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/keyboard_controller/share/keyboard_controller/package.zsh'
+[1.401s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/fprobocon/install/keyboard_controller/share/colcon-core/packages/keyboard_controller)
+[1.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/fprobocon/build/move_to_target' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/fprobocon/src/move_to_target -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/fprobocon/install/move_to_target
+[1.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/fprobocon/build/move_to_target': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/build/move_to_target -- -j16 -l16
+[4.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/fprobocon/build/move_to_target' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/build/move_to_target -- -j16 -l16
+[4.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/fprobocon/build/move_to_target': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/fprobocon/build/move_to_target
+[5.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_to_target)
+[5.090s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/move_to_target' for CMake module files
+[5.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/fprobocon/build/move_to_target' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/fprobocon/build/move_to_target
+[5.091s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/move_to_target' for CMake config files
+[5.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_to_target', 'cmake_prefix_path')
+[5.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/install/move_to_target/share/move_to_target/hook/cmake_prefix_path.ps1'
+[5.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/fprobocon/install/move_to_target/share/move_to_target/hook/cmake_prefix_path.dsv'
+[5.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/install/move_to_target/share/move_to_target/hook/cmake_prefix_path.sh'
+[5.092s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/move_to_target/lib'
+[5.092s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/move_to_target/bin'
+[5.092s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/move_to_target/lib/pkgconfig/move_to_target.pc'
+[5.093s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/move_to_target/lib/python3.10/site-packages'
+[5.093s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/move_to_target/bin'
+[5.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/move_to_target/share/move_to_target/package.ps1'
+[5.093s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/fprobocon/install/move_to_target/share/move_to_target/package.dsv'
+[5.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/move_to_target/share/move_to_target/package.sh'
+[5.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/move_to_target/share/move_to_target/package.bash'
+[5.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/move_to_target/share/move_to_target/package.zsh'
+[5.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/fprobocon/install/move_to_target/share/colcon-core/packages/move_to_target)
+[5.116s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_to_target)
+[5.117s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/move_to_target' for CMake module files
+[5.117s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/move_to_target' for CMake config files
+[5.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_to_target', 'cmake_prefix_path')
+[5.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/install/move_to_target/share/move_to_target/hook/cmake_prefix_path.ps1'
+[5.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/fprobocon/install/move_to_target/share/move_to_target/hook/cmake_prefix_path.dsv'
+[5.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/fprobocon/install/move_to_target/share/move_to_target/hook/cmake_prefix_path.sh'
+[5.118s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/move_to_target/lib'
+[5.118s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/move_to_target/bin'
+[5.118s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/move_to_target/lib/pkgconfig/move_to_target.pc'
+[5.119s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/move_to_target/lib/python3.10/site-packages'
+[5.119s] Level 1:colcon.colcon_core.environment:checking '/home/user/fprobocon/install/move_to_target/bin'
+[5.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/move_to_target/share/move_to_target/package.ps1'
+[5.119s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/fprobocon/install/move_to_target/share/move_to_target/package.dsv'
+[5.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/move_to_target/share/move_to_target/package.sh'
+[5.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/move_to_target/share/move_to_target/package.bash'
+[5.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/fprobocon/install/move_to_target/share/move_to_target/package.zsh'
+[5.120s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/fprobocon/install/move_to_target/share/colcon-core/packages/move_to_target)
+[5.121s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.121s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.121s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.121s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.126s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.126s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.126s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.169s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.169s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/fprobocon/install/local_setup.ps1'
+[5.170s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/fprobocon/install/_local_setup_util_ps1.py'
+[5.171s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/fprobocon/install/setup.ps1'
+[5.172s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/fprobocon/install/local_setup.sh'
+[5.173s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/fprobocon/install/_local_setup_util_sh.py'
+[5.173s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/fprobocon/install/setup.sh'
+[5.174s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/fprobocon/install/local_setup.bash'
+[5.174s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/fprobocon/install/setup.bash'
+[5.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/fprobocon/install/local_setup.zsh'
+[5.175s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/fprobocon/install/setup.zsh'

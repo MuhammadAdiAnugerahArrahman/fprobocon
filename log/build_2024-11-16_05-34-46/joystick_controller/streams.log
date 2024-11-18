@@ -1,0 +1,18 @@
+[0.752s] Invoking command in '/home/user/fprobocon/build/joystick_controller': PYTHONPATH=/home/user/fprobocon/build/joystick_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/fprobocon/install/joystick_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/fprobocon/build/joystick_controller/build --no-deps symlink_data
+[0.951s] running develop
+[0.951s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.951s]   warnings.warn(
+[1.078s] running egg_info
+[1.079s] writing joystick_controller.egg-info/PKG-INFO
+[1.079s] writing dependency_links to joystick_controller.egg-info/dependency_links.txt
+[1.079s] writing entry points to joystick_controller.egg-info/entry_points.txt
+[1.079s] writing requirements to joystick_controller.egg-info/requires.txt
+[1.079s] writing top-level names to joystick_controller.egg-info/top_level.txt
+[1.081s] reading manifest file 'joystick_controller.egg-info/SOURCES.txt'
+[1.081s] writing manifest file 'joystick_controller.egg-info/SOURCES.txt'
+[1.082s] running build_ext
+[1.083s] Creating /home/user/fprobocon/install/joystick_controller/lib/python3.10/site-packages/joystick-controller.egg-link (link to .)
+[1.084s] 
+[1.084s] Installed /home/user/fprobocon/build/joystick_controller
+[1.084s] running symlink_data
+[1.128s] Invoked command in '/home/user/fprobocon/build/joystick_controller' returned '0': PYTHONPATH=/home/user/fprobocon/build/joystick_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/fprobocon/install/joystick_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/fprobocon/build/joystick_controller/build --no-deps symlink_data

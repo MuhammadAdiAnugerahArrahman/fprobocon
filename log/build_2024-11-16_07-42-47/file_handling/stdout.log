@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target file_handling_node[0m
+[100%] Built target file_handling_node
+-- Install configuration: ""
+-- Up-to-date: /home/user/fprobocon/install/file_handling/lib/file_handling/file_handling_node
+-- Up-to-date: /home/user/fprobocon/install/file_handling/share/ament_index/resource_index/package_run_dependencies/file_handling
+-- Up-to-date: /home/user/fprobocon/install/file_handling/share/ament_index/resource_index/parent_prefix_path/file_handling
+-- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/environment/path.sh
+-- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/environment/path.dsv
+-- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/local_setup.bash
+-- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/local_setup.sh
+-- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/local_setup.zsh
+-- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/local_setup.dsv
+-- Installing: /home/user/fprobocon/install/file_handling/share/file_handling/package.dsv
+-- Up-to-date: /home/user/fprobocon/install/file_handling/share/ament_index/resource_index/packages/file_handling
+-- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/cmake/file_handlingConfig.cmake
+-- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/cmake/file_handlingConfig-version.cmake
+-- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/package.xml

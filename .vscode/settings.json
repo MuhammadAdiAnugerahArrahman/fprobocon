@@ -1,0 +1,22 @@
+{
+  "cmake.sourceDirectory": "/home/user/fprobocon/src/simulasi-2025",
+  "python.autoComplete.extraPaths": [
+    "/home/user/fprobocon/install/joystick_controller/lib/python3.10/site-packages",
+    "/home/user/fprobocon/src/simulasi-2025/src/sim2025_key/install/sim2025_key/lib/python3.10/site-packages",
+    "/home/user/fprobocon/build/sim2025_key",
+    "/home/user/fprobocon/install/sim2025_key/lib/python3.10/site-packages",
+    "/home/user/fprobocon/install/keyboard_controller/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/user/fprobocon/install/joystick_controller/lib/python3.10/site-packages",
+    "/home/user/fprobocon/src/simulasi-2025/src/sim2025_key/install/sim2025_key/lib/python3.10/site-packages",
+    "/home/user/fprobocon/build/sim2025_key",
+    "/home/user/fprobocon/install/sim2025_key/lib/python3.10/site-packages",
+    "/home/user/fprobocon/install/keyboard_controller/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ],
+  "C_Cpp.errorSquiggles": "disabled"
+}

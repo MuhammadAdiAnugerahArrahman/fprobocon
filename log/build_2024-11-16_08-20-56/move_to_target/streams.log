@@ -1,0 +1,10 @@
+[0.009s] Invoking command in '/home/user/fprobocon/build/move_to_target': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/fprobocon/install/sim2025_key:/home/user/fprobocon/install/keyboard_controller:/home/user/fprobocon/install/joystick_controller:/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/build/move_to_target -- -j16 -l16
+[0.051s] [ 50%] [32mBuilding CXX object CMakeFiles/odometry.dir/src/odometri.cpp.o[0m
+[0.254s] [01m[K/home/user/fprobocon/src/move_to_target/src/odometri.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kalgorithmfwd.h: No such file or directory
+[0.255s]     6 | #include [01;31m[K<algorithmfwd.h>[m[K
+[0.255s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.255s] compilation terminated.
+[0.258s] gmake[2]: *** [CMakeFiles/odometry.dir/build.make:76: CMakeFiles/odometry.dir/src/odometri.cpp.o] Error 1
+[0.259s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/odometry.dir/all] Error 2
+[0.259s] gmake: *** [Makefile:146: all] Error 2
+[0.261s] Invoked command in '/home/user/fprobocon/build/move_to_target' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/fprobocon/install/sim2025_key:/home/user/fprobocon/install/keyboard_controller:/home/user/fprobocon/install/joystick_controller:/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/build/move_to_target -- -j16 -l16

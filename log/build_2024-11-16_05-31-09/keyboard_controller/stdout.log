@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing keyboard_controller.egg-info/PKG-INFO
+writing dependency_links to keyboard_controller.egg-info/dependency_links.txt
+writing entry points to keyboard_controller.egg-info/entry_points.txt
+writing requirements to keyboard_controller.egg-info/requires.txt
+writing top-level names to keyboard_controller.egg-info/top_level.txt
+reading manifest file 'keyboard_controller.egg-info/SOURCES.txt'
+writing manifest file 'keyboard_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/user/fprobocon/install/keyboard_controller/lib/python3.10/site-packages/keyboard-controller.egg-link (link to .)
+Installing keyboard_controller script to /home/user/fprobocon/install/keyboard_controller/lib/keyboard_controller
+
+Installed /home/user/fprobocon/build/keyboard_controller
+running symlink_data

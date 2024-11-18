@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/sim2025_key
+sim2025_key/__init__.py
+sim2025_key.egg-info/PKG-INFO
+sim2025_key.egg-info/SOURCES.txt
+sim2025_key.egg-info/dependency_links.txt
+sim2025_key.egg-info/entry_points.txt
+sim2025_key.egg-info/requires.txt
+sim2025_key.egg-info/top_level.txt
+sim2025_key.egg-info/zip-safe

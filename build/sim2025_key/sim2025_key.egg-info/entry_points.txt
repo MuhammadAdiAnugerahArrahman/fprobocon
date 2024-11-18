@@ -1,0 +1,3 @@
+[console_scripts]
+keyboard_teleop = sim2025_key.keyboard_teleop:main
+

@@ -1,0 +1,26 @@
+[1.177s] Invoking command in '/home/user/fprobocon/src/build/keyboard_controller': PYTHONPATH=/home/user/fprobocon/src/build/keyboard_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/fprobocon/src/install/keyboard_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/fprobocon/src/build/keyboard_controller/build --no-deps symlink_data
+[1.506s] running develop
+[1.507s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.507s]   warnings.warn(
+[1.701s] running egg_info
+[1.701s] creating keyboard_controller.egg-info
+[1.702s] writing keyboard_controller.egg-info/PKG-INFO
+[1.702s] writing dependency_links to keyboard_controller.egg-info/dependency_links.txt
+[1.702s] writing entry points to keyboard_controller.egg-info/entry_points.txt
+[1.702s] writing requirements to keyboard_controller.egg-info/requires.txt
+[1.702s] writing top-level names to keyboard_controller.egg-info/top_level.txt
+[1.703s] writing manifest file 'keyboard_controller.egg-info/SOURCES.txt'
+[1.705s] reading manifest file 'keyboard_controller.egg-info/SOURCES.txt'
+[1.705s] writing manifest file 'keyboard_controller.egg-info/SOURCES.txt'
+[1.707s] running build_ext
+[1.707s] Creating /home/user/fprobocon/src/install/keyboard_controller/lib/python3.10/site-packages/keyboard-controller.egg-link (link to .)
+[1.708s] Installing keyboard_controller script to /home/user/fprobocon/src/install/keyboard_controller/lib/keyboard_controller
+[1.708s] 
+[1.709s] Installed /home/user/fprobocon/src/build/keyboard_controller
+[1.709s] running symlink_data
+[1.709s] creating /home/user/fprobocon/src/install/keyboard_controller/share/ament_index
+[1.709s] creating /home/user/fprobocon/src/install/keyboard_controller/share/ament_index/resource_index
+[1.709s] creating /home/user/fprobocon/src/install/keyboard_controller/share/ament_index/resource_index/packages
+[1.709s] symbolically linking /home/user/fprobocon/src/build/keyboard_controller/resource/keyboard_controller -> /home/user/fprobocon/src/install/keyboard_controller/share/ament_index/resource_index/packages
+[1.709s] symbolically linking /home/user/fprobocon/src/build/keyboard_controller/package.xml -> /home/user/fprobocon/src/install/keyboard_controller/share/keyboard_controller
+[1.782s] Invoked command in '/home/user/fprobocon/src/build/keyboard_controller' returned '0': PYTHONPATH=/home/user/fprobocon/src/build/keyboard_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/fprobocon/src/install/keyboard_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/fprobocon/src/build/keyboard_controller/build --no-deps symlink_data

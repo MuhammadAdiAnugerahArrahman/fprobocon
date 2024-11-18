@@ -1,0 +1,37 @@
+[0.771s] Invoking command in '/home/user/fprobocon/src/joystick_controller': PYTHONPATH=/home/user/fprobocon/build/joystick_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/fprobocon/install/joystick_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joystick_controller build --build-base /home/user/fprobocon/build/joystick_controller/build install --record /home/user/fprobocon/build/joystick_controller/install.log --single-version-externally-managed install_data
+[1.040s] running egg_info
+[1.040s] creating ../../build/joystick_controller/joystick_controller.egg-info
+[1.041s] writing ../../build/joystick_controller/joystick_controller.egg-info/PKG-INFO
+[1.041s] writing dependency_links to ../../build/joystick_controller/joystick_controller.egg-info/dependency_links.txt
+[1.041s] writing entry points to ../../build/joystick_controller/joystick_controller.egg-info/entry_points.txt
+[1.041s] writing requirements to ../../build/joystick_controller/joystick_controller.egg-info/requires.txt
+[1.041s] writing top-level names to ../../build/joystick_controller/joystick_controller.egg-info/top_level.txt
+[1.042s] writing manifest file '../../build/joystick_controller/joystick_controller.egg-info/SOURCES.txt'
+[1.043s] reading manifest file '../../build/joystick_controller/joystick_controller.egg-info/SOURCES.txt'
+[1.043s] adding license file 'LICENSE'
+[1.044s] writing manifest file '../../build/joystick_controller/joystick_controller.egg-info/SOURCES.txt'
+[1.044s] running build
+[1.044s] running build_py
+[1.045s] creating /home/user/fprobocon/build/joystick_controller/build
+[1.045s] creating /home/user/fprobocon/build/joystick_controller/build/lib
+[1.045s] creating /home/user/fprobocon/build/joystick_controller/build/lib/joystick_controller
+[1.045s] copying joystick_controller/joystick_controller.py -> /home/user/fprobocon/build/joystick_controller/build/lib/joystick_controller
+[1.045s] copying joystick_controller/__init__.py -> /home/user/fprobocon/build/joystick_controller/build/lib/joystick_controller
+[1.046s] running install
+[1.047s] running install_lib
+[1.047s] creating /home/user/fprobocon/install/joystick_controller/lib/python3.10/site-packages/joystick_controller
+[1.048s] copying /home/user/fprobocon/build/joystick_controller/build/lib/joystick_controller/joystick_controller.py -> /home/user/fprobocon/install/joystick_controller/lib/python3.10/site-packages/joystick_controller
+[1.048s] copying /home/user/fprobocon/build/joystick_controller/build/lib/joystick_controller/__init__.py -> /home/user/fprobocon/install/joystick_controller/lib/python3.10/site-packages/joystick_controller
+[1.048s] byte-compiling /home/user/fprobocon/install/joystick_controller/lib/python3.10/site-packages/joystick_controller/joystick_controller.py to joystick_controller.cpython-310.pyc
+[1.049s] byte-compiling /home/user/fprobocon/install/joystick_controller/lib/python3.10/site-packages/joystick_controller/__init__.py to __init__.cpython-310.pyc
+[1.049s] running install_data
+[1.049s] creating /home/user/fprobocon/install/joystick_controller/share/ament_index
+[1.049s] creating /home/user/fprobocon/install/joystick_controller/share/ament_index/resource_index
+[1.049s] creating /home/user/fprobocon/install/joystick_controller/share/ament_index/resource_index/packages
+[1.050s] copying resource/joystick_controller -> /home/user/fprobocon/install/joystick_controller/share/ament_index/resource_index/packages
+[1.050s] copying package.xml -> /home/user/fprobocon/install/joystick_controller/share/joystick_controller
+[1.050s] running install_egg_info
+[1.052s] Copying ../../build/joystick_controller/joystick_controller.egg-info to /home/user/fprobocon/install/joystick_controller/lib/python3.10/site-packages/joystick_controller-0.0.0-py3.10.egg-info
+[1.053s] running install_scripts
+[1.075s] writing list of installed files to '/home/user/fprobocon/build/joystick_controller/install.log'
+[1.106s] Invoked command in '/home/user/fprobocon/src/joystick_controller' returned '0': PYTHONPATH=/home/user/fprobocon/build/joystick_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/fprobocon/install/joystick_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/joystick_controller build --build-base /home/user/fprobocon/build/joystick_controller/build install --record /home/user/fprobocon/build/joystick_controller/install.log --single-version-externally-managed install_data

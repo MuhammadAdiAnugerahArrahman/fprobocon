@@ -1,0 +1,77 @@
+[0.681s] Invoking command in '/home/user/fprobocon/src/build/simulasi-2025': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/fprobocon/install/sim2025_key:/home/user/fprobocon/install/keyboard_controller:/opt/ros/humble /usr/bin/cmake /home/user/fprobocon/src/simulasi-2025 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/fprobocon/src/install/simulasi-2025
+[0.779s] -- The C compiler identification is GNU 11.4.0
+[0.865s] -- The CXX compiler identification is GNU 11.4.0
+[0.877s] -- Detecting C compiler ABI info
+[0.973s] -- Detecting C compiler ABI info - done
+[0.980s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.980s] -- Detecting C compile features
+[0.981s] -- Detecting C compile features - done
+[0.985s] -- Detecting CXX compiler ABI info
+[1.099s] -- Detecting CXX compiler ABI info - done
+[1.108s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.108s] -- Detecting CXX compile features
+[1.108s] -- Detecting CXX compile features - done
+[1.114s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.312s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.385s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.494s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.497s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.574s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.581s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.595s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.634s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.678s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.733s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.888s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.888s] -- Configured cppcheck include dirs: 
+[1.888s] -- Configured cppcheck exclude dirs and/or files: 
+[1.893s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.903s] -- Added test 'lint_cmake' to check CMake code style
+[1.908s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.944s] -- Added test 'uncrustify' to check C / C++ code style
+[1.944s] -- Configured uncrustify additional arguments: 
+[1.949s] -- Added test 'xmllint' to check XML markup files
+[1.952s] -- Configuring done
+[1.957s] -- Generating done
+[1.958s] -- Build files have been written to: /home/user/fprobocon/src/build/simulasi-2025
+[1.970s] Invoked command in '/home/user/fprobocon/src/build/simulasi-2025' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/fprobocon/install/sim2025_key:/home/user/fprobocon/install/keyboard_controller:/opt/ros/humble /usr/bin/cmake /home/user/fprobocon/src/simulasi-2025 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/fprobocon/src/install/simulasi-2025
+[1.973s] Invoking command in '/home/user/fprobocon/src/build/simulasi-2025': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/fprobocon/install/sim2025_key:/home/user/fprobocon/install/keyboard_controller:/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/src/build/simulasi-2025 -- -j16 -l16
+[2.030s] Invoked command in '/home/user/fprobocon/src/build/simulasi-2025' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/fprobocon/install/sim2025_key:/home/user/fprobocon/install/keyboard_controller:/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/src/build/simulasi-2025 -- -j16 -l16
+[2.076s] Invoking command in '/home/user/fprobocon/src/build/simulasi-2025': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/fprobocon/install/sim2025_key:/home/user/fprobocon/install/keyboard_controller:/opt/ros/humble /usr/bin/cmake --install /home/user/fprobocon/src/build/simulasi-2025
+[2.085s] -- Install configuration: ""
+[2.086s] -- Execute custom install script
+[2.086s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/launch/display.launch.py
+[2.099s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/rviz/navigation.rviz
+[2.113s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/rviz/rvizconfig.rviz
+[2.126s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/rviz/urdf_config.rviz
+[2.144s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/config/localization/ekf.yaml
+[2.158s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/config/localization/online_async_slam.yaml
+[2.172s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/config/nav2_params.yaml
+[2.184s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/worlds/my_world.sdf
+[2.198s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/models/lapangan/lapangan.sdf
+[2.212s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/models/lapangan/meshes/lapangan.dae
+[2.225s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/models/lapangan/model.config
+[2.238s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/description/diff_drive_description.urdf
+[2.250s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/maps/mapku.data
+[2.262s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/maps/mapku.posegraph
+[2.273s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/maps/mapkuh.pgm
+[2.283s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/maps/mapkuh.yaml
+[2.295s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/environment/simulasi-2025.dsv
+[2.306s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/environment/simulasi-2025.sh
+[2.319s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/ament_index/resource_index/package_run_dependencies/simulasi-2025
+[2.330s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/ament_index/resource_index/parent_prefix_path/simulasi-2025
+[2.342s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/environment/ament_prefix_path.sh
+[2.353s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/environment/ament_prefix_path.dsv
+[2.365s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/environment/path.sh
+[2.376s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/environment/path.dsv
+[2.386s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/local_setup.bash
+[2.398s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/local_setup.sh
+[2.409s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/local_setup.zsh
+[2.423s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/local_setup.dsv
+[2.434s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/package.dsv
+[2.445s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/ament_index/resource_index/packages/simulasi-2025
+[2.456s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.467s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/cmake/simulasi-2025Config.cmake
+[2.477s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/cmake/simulasi-2025Config-version.cmake
+[2.489s] -- Symlinking: /home/user/fprobocon/src/install/simulasi-2025/share/simulasi-2025/package.xml
+[2.503s] Invoked command in '/home/user/fprobocon/src/build/simulasi-2025' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/fprobocon/install/sim2025_key:/home/user/fprobocon/install/keyboard_controller:/opt/ros/humble /usr/bin/cmake --install /home/user/fprobocon/src/build/simulasi-2025

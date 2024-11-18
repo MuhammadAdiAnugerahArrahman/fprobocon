@@ -1,0 +1,25 @@
+[1.182s] Invoking command in '/home/user/fprobocon/src/build/joystick_controller': PYTHONPATH=/home/user/fprobocon/src/build/joystick_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/fprobocon/src/install/joystick_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/fprobocon/src/build/joystick_controller/build --no-deps symlink_data
+[1.515s] running develop
+[1.516s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.516s]   warnings.warn(
+[1.710s] running egg_info
+[1.710s] creating joystick_controller.egg-info
+[1.710s] writing joystick_controller.egg-info/PKG-INFO
+[1.710s] writing dependency_links to joystick_controller.egg-info/dependency_links.txt
+[1.711s] writing entry points to joystick_controller.egg-info/entry_points.txt
+[1.711s] writing requirements to joystick_controller.egg-info/requires.txt
+[1.711s] writing top-level names to joystick_controller.egg-info/top_level.txt
+[1.711s] writing manifest file 'joystick_controller.egg-info/SOURCES.txt'
+[1.713s] reading manifest file 'joystick_controller.egg-info/SOURCES.txt'
+[1.714s] writing manifest file 'joystick_controller.egg-info/SOURCES.txt'
+[1.715s] running build_ext
+[1.716s] Creating /home/user/fprobocon/src/install/joystick_controller/lib/python3.10/site-packages/joystick-controller.egg-link (link to .)
+[1.717s] 
+[1.717s] Installed /home/user/fprobocon/src/build/joystick_controller
+[1.717s] running symlink_data
+[1.718s] creating /home/user/fprobocon/src/install/joystick_controller/share/ament_index
+[1.718s] creating /home/user/fprobocon/src/install/joystick_controller/share/ament_index/resource_index
+[1.718s] creating /home/user/fprobocon/src/install/joystick_controller/share/ament_index/resource_index/packages
+[1.718s] symbolically linking /home/user/fprobocon/src/build/joystick_controller/resource/joystick_controller -> /home/user/fprobocon/src/install/joystick_controller/share/ament_index/resource_index/packages
+[1.718s] symbolically linking /home/user/fprobocon/src/build/joystick_controller/package.xml -> /home/user/fprobocon/src/install/joystick_controller/share/joystick_controller
+[1.778s] Invoked command in '/home/user/fprobocon/src/build/joystick_controller' returned '0': PYTHONPATH=/home/user/fprobocon/src/build/joystick_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/fprobocon/src/install/joystick_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/fprobocon/src/build/joystick_controller/build --no-deps symlink_data

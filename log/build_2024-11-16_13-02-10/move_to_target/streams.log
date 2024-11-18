@@ -1,0 +1,24 @@
+[0.563s] Invoking command in '/home/user/fprobocon/build/move_to_target': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/build/move_to_target -- -j16 -l16
+[0.603s] [35m[1mConsolidate compiler generated dependencies of target odometry[0m
+[0.621s] [100%] Built target odometry
+[0.633s] Invoked command in '/home/user/fprobocon/build/move_to_target' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/build/move_to_target -- -j16 -l16
+[0.664s] Invoking command in '/home/user/fprobocon/build/move_to_target': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/fprobocon/build/move_to_target
+[0.671s] -- Install configuration: ""
+[0.672s] -- Execute custom install script
+[0.672s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/lib/move_to_target/odometry
+[0.672s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/ament_index/resource_index/package_run_dependencies/move_to_target
+[0.672s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/ament_index/resource_index/parent_prefix_path/move_to_target
+[0.672s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/environment/ament_prefix_path.sh
+[0.673s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/environment/ament_prefix_path.dsv
+[0.673s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/environment/path.sh
+[0.673s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/environment/path.dsv
+[0.673s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/local_setup.bash
+[0.673s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/local_setup.sh
+[0.673s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/local_setup.zsh
+[0.673s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/local_setup.dsv
+[0.673s] -- Symlinking: /home/user/fprobocon/install/move_to_target/share/move_to_target/package.dsv
+[0.683s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/ament_index/resource_index/packages/move_to_target
+[0.683s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/cmake/move_to_targetConfig.cmake
+[0.683s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/cmake/move_to_targetConfig-version.cmake
+[0.683s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/package.xml
+[0.685s] Invoked command in '/home/user/fprobocon/build/move_to_target' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/fprobocon/build/move_to_target

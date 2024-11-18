@@ -1,0 +1,7 @@
+[01m[K/home/user/fprobocon/src/file_handling/src/point_reader.cpp:[m[K In constructor ‘[01m[KPointReaderNode::PointReaderNode()[m[K’:
+[01m[K/home/user/fprobocon/src/file_handling/src/point_reader.cpp:10:47:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPointReaderNode[m[K’ does not have any field named ‘[01m[Kcurrejnt_point_[m[K’
+   10 |     PointReaderNode() : Node("point_reader"), [01;31m[Kcurrejnt_point_[m[K(0) {
+      |                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/point_reader.dir/build.make:76: CMakeFiles/point_reader.dir/src/point_reader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/point_reader.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

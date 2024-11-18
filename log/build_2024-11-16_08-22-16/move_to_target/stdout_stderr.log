@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/odometry.dir/src/odometri.cpp.o[0m
+[100%] [32m[1mLinking CXX executable odometry[0m
+[100%] Built target odometry
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/user/fprobocon/install/move_to_target/lib/move_to_target/odometry
+-- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/ament_index/resource_index/package_run_dependencies/move_to_target
+-- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/ament_index/resource_index/parent_prefix_path/move_to_target
+-- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/environment/path.sh
+-- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/environment/path.dsv
+-- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/local_setup.bash
+-- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/local_setup.sh
+-- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/local_setup.zsh
+-- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/local_setup.dsv
+-- Symlinking: /home/user/fprobocon/install/move_to_target/share/move_to_target/package.dsv
+-- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/ament_index/resource_index/packages/move_to_target
+-- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/cmake/move_to_targetConfig.cmake
+-- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/cmake/move_to_targetConfig-version.cmake
+-- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/package.xml

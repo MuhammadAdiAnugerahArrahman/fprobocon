@@ -1,0 +1,25 @@
+[0.013s] Invoking command in '/home/user/fprobocon/build/file_handling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/fprobocon/install/sim2025_key:/home/user/fprobocon/install/keyboard_controller:/home/user/fprobocon/install/joystick_controller:/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/build/file_handling -- -j16 -l16
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/file_handling_node.dir/src/file_handling_node.cpp.o[0m
+[4.516s] [100%] [32m[1mLinking CXX executable file_handling_node[0m
+[4.749s] [100%] Built target file_handling_node
+[4.765s] Invoked command in '/home/user/fprobocon/build/file_handling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/fprobocon/install/sim2025_key:/home/user/fprobocon/install/keyboard_controller:/home/user/fprobocon/install/joystick_controller:/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/build/file_handling -- -j16 -l16
+[4.803s] Invoking command in '/home/user/fprobocon/build/file_handling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/fprobocon/install/sim2025_key:/home/user/fprobocon/install/keyboard_controller:/home/user/fprobocon/install/joystick_controller:/opt/ros/humble /usr/bin/cmake --install /home/user/fprobocon/build/file_handling
+[4.813s] -- Install configuration: ""
+[4.813s] -- Installing: /home/user/fprobocon/install/file_handling/lib/file_handling/file_handling_node
+[4.815s] -- Set runtime path of "/home/user/fprobocon/install/file_handling/lib/file_handling/file_handling_node" to ""
+[4.815s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/ament_index/resource_index/package_run_dependencies/file_handling
+[4.815s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/ament_index/resource_index/parent_prefix_path/file_handling
+[4.815s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/environment/ament_prefix_path.sh
+[4.815s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/environment/ament_prefix_path.dsv
+[4.815s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/environment/path.sh
+[4.815s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/environment/path.dsv
+[4.815s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/local_setup.bash
+[4.815s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/local_setup.sh
+[4.815s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/local_setup.zsh
+[4.815s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/local_setup.dsv
+[4.815s] -- Installing: /home/user/fprobocon/install/file_handling/share/file_handling/package.dsv
+[4.815s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/ament_index/resource_index/packages/file_handling
+[4.816s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/cmake/file_handlingConfig.cmake
+[4.816s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/cmake/file_handlingConfig-version.cmake
+[4.816s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/package.xml
+[4.818s] Invoked command in '/home/user/fprobocon/build/file_handling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/fprobocon/install/sim2025_key:/home/user/fprobocon/install/keyboard_controller:/home/user/fprobocon/install/joystick_controller:/opt/ros/humble /usr/bin/cmake --install /home/user/fprobocon/build/file_handling

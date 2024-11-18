@@ -1,0 +1,42 @@
+[0.013s] Invoking command in '/home/user/fprobocon/build/file_handling': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/build/file_handling -- -j16 -l16
+[0.039s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.158s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.183s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.186s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.190s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.198s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.209s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.235s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.236s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.345s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.402s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.414s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.503s] -- Configuring done
+[0.512s] -- Generating done
+[0.514s] -- Build files have been written to: /home/user/fprobocon/build/file_handling
+[0.557s] [ 50%] [32mBuilding CXX object CMakeFiles/point_reader.dir/src/point_reader.cpp.o[0m
+[10.607s] [100%] [32m[1mLinking CXX executable point_reader[0m
+[12.805s] [100%] Built target point_reader
+[12.819s] Invoked command in '/home/user/fprobocon/build/file_handling' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/build/file_handling -- -j16 -l16
+[12.861s] Invoking command in '/home/user/fprobocon/build/file_handling': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/fprobocon/build/file_handling
+[12.869s] -- Install configuration: ""
+[12.869s] -- Installing: /home/user/fprobocon/install/file_handling/lib/file_handling/point_reader
+[12.873s] -- Set runtime path of "/home/user/fprobocon/install/file_handling/lib/file_handling/point_reader" to ""
+[12.873s] -- Installing: /home/user/fprobocon/install/file_handling/share/file_handling/config
+[12.873s] -- Installing: /home/user/fprobocon/install/file_handling/share/file_handling/config/points.txt
+[12.873s] -- Installing: /home/user/fprobocon/install/file_handling/share/ament_index/resource_index/package_run_dependencies/file_handling
+[12.873s] -- Installing: /home/user/fprobocon/install/file_handling/share/ament_index/resource_index/parent_prefix_path/file_handling
+[12.874s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/environment/ament_prefix_path.sh
+[12.874s] -- Installing: /home/user/fprobocon/install/file_handling/share/file_handling/environment/ament_prefix_path.dsv
+[12.874s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/environment/path.sh
+[12.874s] -- Installing: /home/user/fprobocon/install/file_handling/share/file_handling/environment/path.dsv
+[12.874s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/local_setup.bash
+[12.874s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/local_setup.sh
+[12.874s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/local_setup.zsh
+[12.874s] -- Installing: /home/user/fprobocon/install/file_handling/share/file_handling/local_setup.dsv
+[12.875s] -- Installing: /home/user/fprobocon/install/file_handling/share/file_handling/package.dsv
+[12.875s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/ament_index/resource_index/packages/file_handling
+[12.875s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/cmake/file_handlingConfig.cmake
+[12.875s] -- Up-to-date: /home/user/fprobocon/install/file_handling/share/file_handling/cmake/file_handlingConfig-version.cmake
+[12.875s] -- Installing: /home/user/fprobocon/install/file_handling/share/file_handling/package.xml
+[12.879s] Invoked command in '/home/user/fprobocon/build/file_handling' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/fprobocon/build/file_handling

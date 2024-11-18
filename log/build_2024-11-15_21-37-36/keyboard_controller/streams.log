@@ -1,0 +1,25 @@
+[0.769s] Invoking command in '/home/user/fprobocon/src/keyboard_controller': PYTHONPATH=/home/user/fprobocon/build/keyboard_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/fprobocon/install/keyboard_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/keyboard_controller build --build-base /home/user/fprobocon/build/keyboard_controller/build install --record /home/user/fprobocon/build/keyboard_controller/install.log --single-version-externally-managed install_data
+[1.039s] running egg_info
+[1.040s] writing ../../build/keyboard_controller/keyboard_controller.egg-info/PKG-INFO
+[1.040s] writing dependency_links to ../../build/keyboard_controller/keyboard_controller.egg-info/dependency_links.txt
+[1.040s] writing entry points to ../../build/keyboard_controller/keyboard_controller.egg-info/entry_points.txt
+[1.040s] writing requirements to ../../build/keyboard_controller/keyboard_controller.egg-info/requires.txt
+[1.040s] writing top-level names to ../../build/keyboard_controller/keyboard_controller.egg-info/top_level.txt
+[1.042s] reading manifest file '../../build/keyboard_controller/keyboard_controller.egg-info/SOURCES.txt'
+[1.043s] adding license file 'LICENSE'
+[1.043s] writing manifest file '../../build/keyboard_controller/keyboard_controller.egg-info/SOURCES.txt'
+[1.044s] running build
+[1.044s] running build_py
+[1.044s] copying keyboard_controller/keyboard_controller.py -> /home/user/fprobocon/build/keyboard_controller/build/lib/keyboard_controller
+[1.045s] running install
+[1.046s] running install_lib
+[1.047s] copying /home/user/fprobocon/build/keyboard_controller/build/lib/keyboard_controller/keyboard_controller.py -> /home/user/fprobocon/install/keyboard_controller/lib/python3.10/site-packages/keyboard_controller
+[1.047s] byte-compiling /home/user/fprobocon/install/keyboard_controller/lib/python3.10/site-packages/keyboard_controller/keyboard_controller.py to keyboard_controller.cpython-310.pyc
+[1.048s] running install_data
+[1.048s] running install_egg_info
+[1.050s] removing '/home/user/fprobocon/install/keyboard_controller/lib/python3.10/site-packages/keyboard_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.051s] Copying ../../build/keyboard_controller/keyboard_controller.egg-info to /home/user/fprobocon/install/keyboard_controller/lib/python3.10/site-packages/keyboard_controller-0.0.0-py3.10.egg-info
+[1.052s] running install_scripts
+[1.074s] Installing keyboard_controller script to /home/user/fprobocon/install/keyboard_controller/lib/keyboard_controller
+[1.075s] writing list of installed files to '/home/user/fprobocon/build/keyboard_controller/install.log'
+[1.111s] Invoked command in '/home/user/fprobocon/src/keyboard_controller' returned '0': PYTHONPATH=/home/user/fprobocon/build/keyboard_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/fprobocon/install/keyboard_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/keyboard_controller build --build-base /home/user/fprobocon/build/keyboard_controller/build install --record /home/user/fprobocon/build/keyboard_controller/install.log --single-version-externally-managed install_data

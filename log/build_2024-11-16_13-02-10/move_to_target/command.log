@@ -1,0 +1,4 @@
+Invoking command in '/home/user/fprobocon/build/move_to_target': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/build/move_to_target -- -j16 -l16
+Invoked command in '/home/user/fprobocon/build/move_to_target' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/build/move_to_target -- -j16 -l16
+Invoking command in '/home/user/fprobocon/build/move_to_target': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/fprobocon/build/move_to_target
+Invoked command in '/home/user/fprobocon/build/move_to_target' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/fprobocon/build/move_to_target

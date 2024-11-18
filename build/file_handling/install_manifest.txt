@@ -1,0 +1,17 @@
+/home/user/fprobocon/install/file_handling/lib/file_handling/point_reader
+/home/user/fprobocon/install/file_handling/share/file_handling/config/points.txt
+/home/user/fprobocon/install/file_handling/share/ament_index/resource_index/package_run_dependencies/file_handling
+/home/user/fprobocon/install/file_handling/share/ament_index/resource_index/parent_prefix_path/file_handling
+/home/user/fprobocon/install/file_handling/share/file_handling/environment/ament_prefix_path.sh
+/home/user/fprobocon/install/file_handling/share/file_handling/environment/ament_prefix_path.dsv
+/home/user/fprobocon/install/file_handling/share/file_handling/environment/path.sh
+/home/user/fprobocon/install/file_handling/share/file_handling/environment/path.dsv
+/home/user/fprobocon/install/file_handling/share/file_handling/local_setup.bash
+/home/user/fprobocon/install/file_handling/share/file_handling/local_setup.sh
+/home/user/fprobocon/install/file_handling/share/file_handling/local_setup.zsh
+/home/user/fprobocon/install/file_handling/share/file_handling/local_setup.dsv
+/home/user/fprobocon/install/file_handling/share/file_handling/package.dsv
+/home/user/fprobocon/install/file_handling/share/ament_index/resource_index/packages/file_handling
+/home/user/fprobocon/install/file_handling/share/file_handling/cmake/file_handlingConfig.cmake
+/home/user/fprobocon/install/file_handling/share/file_handling/cmake/file_handlingConfig-version.cmake
+/home/user/fprobocon/install/file_handling/share/file_handling/package.xml

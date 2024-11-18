@@ -1,0 +1,4 @@
+source;share/simulasi-2025/local_setup.bash
+source;share/simulasi-2025/local_setup.dsv
+source;share/simulasi-2025/local_setup.sh
+source;share/simulasi-2025/local_setup.zsh

@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/user/fprobocon/build/move_to_target': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/fprobocon/install/sim2025_key:/home/user/fprobocon/install/keyboard_controller:/home/user/fprobocon/install/joystick_controller:/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/build/move_to_target -- -j16 -l16
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/odometry.dir/src/odometri.cpp.o[0m
+[7.854s] [100%] [32m[1mLinking CXX executable odometry[0m
+[8.276s] [100%] Built target odometry
+[8.286s] Invoked command in '/home/user/fprobocon/build/move_to_target' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/fprobocon/install/sim2025_key:/home/user/fprobocon/install/keyboard_controller:/home/user/fprobocon/install/joystick_controller:/opt/ros/humble /usr/bin/cmake --build /home/user/fprobocon/build/move_to_target -- -j16 -l16
+[8.316s] Invoking command in '/home/user/fprobocon/build/move_to_target': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/fprobocon/install/sim2025_key:/home/user/fprobocon/install/keyboard_controller:/home/user/fprobocon/install/joystick_controller:/opt/ros/humble /usr/bin/cmake --install /home/user/fprobocon/build/move_to_target
+[8.322s] -- Install configuration: ""
+[8.322s] -- Execute custom install script
+[8.322s] -- Symlinking: /home/user/fprobocon/install/move_to_target/lib/move_to_target/odometry
+[8.329s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/ament_index/resource_index/package_run_dependencies/move_to_target
+[8.330s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/ament_index/resource_index/parent_prefix_path/move_to_target
+[8.330s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/environment/ament_prefix_path.sh
+[8.330s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/environment/ament_prefix_path.dsv
+[8.330s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/environment/path.sh
+[8.330s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/environment/path.dsv
+[8.330s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/local_setup.bash
+[8.330s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/local_setup.sh
+[8.330s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/local_setup.zsh
+[8.330s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/local_setup.dsv
+[8.330s] -- Symlinking: /home/user/fprobocon/install/move_to_target/share/move_to_target/package.dsv
+[8.338s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/ament_index/resource_index/packages/move_to_target
+[8.338s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/cmake/move_to_targetConfig.cmake
+[8.338s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/cmake/move_to_targetConfig-version.cmake
+[8.338s] -- Up-to-date symlink: /home/user/fprobocon/install/move_to_target/share/move_to_target/package.xml
+[8.340s] Invoked command in '/home/user/fprobocon/build/move_to_target' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/fprobocon/install/sim2025_key:/home/user/fprobocon/install/keyboard_controller:/home/user/fprobocon/install/joystick_controller:/opt/ros/humble /usr/bin/cmake --install /home/user/fprobocon/build/move_to_target

@@ -1,0 +1,3 @@
+[console_scripts]
+ball_detector_node = ball_detector.ball_detector_node:main
+

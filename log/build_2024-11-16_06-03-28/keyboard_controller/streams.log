@@ -1,0 +1,19 @@
+[0.959s] Invoking command in '/home/user/fprobocon/build/keyboard_controller': PYTHONPATH=/home/user/fprobocon/build/keyboard_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/fprobocon/install/keyboard_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/fprobocon/build/keyboard_controller/build --no-deps symlink_data
+[1.208s] running develop
+[1.208s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.209s]   warnings.warn(
+[1.360s] running egg_info
+[1.360s] writing keyboard_controller.egg-info/PKG-INFO
+[1.360s] writing dependency_links to keyboard_controller.egg-info/dependency_links.txt
+[1.360s] writing entry points to keyboard_controller.egg-info/entry_points.txt
+[1.360s] writing requirements to keyboard_controller.egg-info/requires.txt
+[1.361s] writing top-level names to keyboard_controller.egg-info/top_level.txt
+[1.362s] reading manifest file 'keyboard_controller.egg-info/SOURCES.txt'
+[1.363s] writing manifest file 'keyboard_controller.egg-info/SOURCES.txt'
+[1.364s] running build_ext
+[1.365s] Creating /home/user/fprobocon/install/keyboard_controller/lib/python3.10/site-packages/keyboard-controller.egg-link (link to .)
+[1.366s] Installing keyboard_controller script to /home/user/fprobocon/install/keyboard_controller/lib/keyboard_controller
+[1.366s] 
+[1.366s] Installed /home/user/fprobocon/build/keyboard_controller
+[1.366s] running symlink_data
+[1.469s] Invoked command in '/home/user/fprobocon/build/keyboard_controller' returned '0': PYTHONPATH=/home/user/fprobocon/build/keyboard_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/fprobocon/install/keyboard_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/fprobocon/build/keyboard_controller/build --no-deps symlink_data
